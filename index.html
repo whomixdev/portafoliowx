@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT WX | Elite Digital Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+    <div id="particles-js"></div>
+    <div class="bg-gradient-overlay"></div>
+
+    <div id="loader">
+        <img src="IMAGES/PROJECT 3 SIN PESO.jpg" alt="PROJECT WX" class="loader-img">
+        <div class="loader-line"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-brand"><img src="IMAGES/PROJECT 3 SIN PESO.jpg" alt="WX"></a>
+            <div class="menu-toggle" id="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto" class="btn-nav">Trabajemos juntos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero section">
+        <div class="container hero-content scroll-anim">
+            <h1 class="hero-title">Desarrollo soluciones digitales <br><span class="text-gradient typing-text">modernas</span></h1>
+            <p class="hero-subtitle">Diseño, programo y optimizo experiencias digitales para negocios reales, combinando estrategia, estética y rendimiento absoluto.</p>
+            <div class="btn-group">
+                <a href="#proyectos" class="btn btn-primary btn-glow">Ver proyectos <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contacto" class="btn btn-outline">Hablemos <i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator"><i class="fa-solid fa-mouse"></i><br>Scroll</div>
+    </header>
+
+    <section id="sobre-mi" class="section">
+        <div class="container scroll-anim">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-tag">EL CEREBRO DETRÁS</span>
+                    <h2 class="section-title">Ingeniería que <span class="text-gradient">Convierte</span></h2>
+                    <p class="paragraph">Desarrollador de soluciones digitales enfocado en crear experiencias funcionales, modernas y altamente optimizadas.</p>
+                    <p class="paragraph">Combino el desarrollo web robusto, un diseño visual limpio y pensamiento estratégico para construir productos digitales que no solo impresionan, sino que generan resultados reales y escalables.</p>
+                </div>
+                <div class="about-image glass-card">
+                    <img src="IMAGES/PROJECT 3 SIN PESO.jpg" alt="WHOMIX" class="avatar-img">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container scroll-anim">
+            <div class="section-header">
+                <span class="section-tag">QUÉ HACEMOS</span>
+                <h2 class="section-title">Ecosistema <span class="text-gradient">Digital</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-layer-group icon-gradient"></i>
+                    <h3>Desarrollo Web Élite</h3>
+                    <p>Sistemas a medida, rápidos y escalables que soportan el crecimiento de tu empresa.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-pen-nib icon-gradient"></i>
+                    <h3>Diseño UI/UX</h3>
+                    <p>Arquitectura visual pensada exclusivamente en la retención del usuario y la conversión.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-rocket icon-gradient"></i>
+                    <h3>Landing Pages Premium</h3>
+                    <p>Páginas de ventas de alto impacto diseñadas para captar leads cualificados al instante.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-gauge-high icon-gradient"></i>
+                    <h3>Optimización (WPO)</h3>
+                    <p>Tiempos de carga mínimos y código limpio para dominar el SEO y no perder clientes.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-video icon-gradient"></i>
+                    <h3>Branding & Media</h3>
+                    <p>Edición audiovisual cinematográfica e identidad corporativa que marca la diferencia.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <i class="fa-solid fa-robot icon-gradient"></i>
+                    <h3>Automatización</h3>
+                    <p>Conexión de APIs y flujos de trabajo automáticos para ahorrar cientos de horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="section glass-section">
+        <div class="container scroll-anim">
+            <h2 class="section-title text-center">Stack <span class="text-gradient">Tecnológico</span></h2>
+            <div class="tech-grid">
+                <div class="tech-item hover-lift"><i class="fa-brands fa-react"></i><span>React</span></div>
+                <div class="tech-item hover-lift"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="tech-item hover-lift"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                <div class="tech-item hover-lift"><i class="fa-brands fa-html5"></i><span>HTML5 Pro</span></div>
+                <div class="tech-item hover-lift"><i class="fa-brands fa-css3-alt"></i><span>CSS3 / UI</span></div>
+                <div class="tech-item hover-lift"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section">
+        <div class="container scroll-anim">
+            <div class="section-header text-center">
+                <span class="section-tag">PORTAFOLIO</span>
+                <h2 class="section-title">Casos de <span class="text-gradient">Estudio</span></h2>
+            </div>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="saas">Sistemas / SaaS</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+            </div>
+
+            <div class="projects-grid" id="projects-container">
+                </div>
+        </div>
+    </section>
+
+    <div id="project-modal" class="modal-backdrop">
+        <div class="modal-content glass-card">
+            <button class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-details" class="modal-body"></div>
+        </div>
+    </div>
+
+    <section id="proceso" class="section">
+        <div class="container scroll-anim">
+            <div class="section-header text-center">
+                <span class="section-tag">METODOLOGÍA</span>
+                <h2 class="section-title">Cómo lo <span class="text-gradient">hacemos</span></h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h3>Auditoría</h3>
+                    <p>Análisis profundo del problema y estrategia visual.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h3>Diseño UX</h3>
+                    <p>Creación de prototipos enfocados en la retención.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h3>Desarrollo</h3>
+                    <p>Programación ágil, limpia y altamente segura.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h3>Lanzamiento</h3>
+                    <p>Optimización WPO y despliegue en producción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="metricas" class="section glass-section">
+        <div class="container scroll-anim">
+            <div class="metrics-wrapper">
+                <div class="metric"><h3 class="counter" data-target="13">0</h3><span class="sign">+</span><p>Proyectos Top</p></div>
+                <div class="metric"><h3 class="counter" data-target="100">0</h3><span class="sign">%</span><p>Performance Score</p></div>
+                <div class="metric"><h3 class="counter" data-target="97">0</h3><span class="sign">%</span><p>Tasa de Éxito</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container scroll-anim">
+            <div class="contact-layout">
+                <div class="contact-copy">
+                    <span class="section-tag">INICIA AHORA</span>
+                    <h2 class="section-title">¿Tienes una idea?<br><span class="text-gradient">Convirtámosla en realidad.</span></h2>
+                    <p class="paragraph">Agenda una consulta o envíame los detalles de tu próximo proyecto. Construyamos la herramienta que tu negocio necesita.</p>
+                    
+                    <div class="social-pro-links">
+                        <a href="https://wa.me/51926633596" target="_blank" class="social-item wa-hover">
+                            <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+                        </a>
+                        <a href="https://instagram.com/whomiix_dev" target="_blank" class="social-item ig-hover">
+                            <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
+                        </a>
+                        <a href="https://tiktok.com/@x.whom" target="_blank" class="social-item tk-hover">
+                            <i class="fa-brands fa-tiktok"></i> <span>TikTok</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-card">
+                    <form id="form-contacto" class="elite-form">
+                        <div class="input-row">
+                            <div class="input-col"><input type="text" name="nombre" placeholder="Nombre completo" required></div>
+                            <div class="input-col"><input type="email" name="email" placeholder="Correo corporativo" required></div>
+                        </div>
+                        <div class="input-row">
+                            <input type="text" name="asunto" placeholder="Asunto del proyecto" required>
+                        </div>
+                        <div class="input-row">
+                            <textarea name="mensaje" rows="5" placeholder="Cuéntame sobre los objetivos de tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-glow w-100" id="btn-enviar">Solicitar Propuesta <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="IMAGES/PROJECT 3 SIN PESO.jpg" alt="WX" class="footer-logo-img">
+                <p>Ingeniería digital para empresas que exigen excelencia.</p>
+            </div>
+            <div class="footer-links">
+                <p>&copy; 2026 PROJECT WX — Soluciones digitales.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-notification"><i class="fa-solid fa-circle-check"></i> Mensaje enviado. Nos pondremos en contacto pronto.</div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
